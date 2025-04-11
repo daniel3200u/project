@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <header>
+      <div class="main-header">
+        <h3 class="header-info">
+          <img
+            class="header-icon"
+            src="pictures for website/images-removebg-preview (4).png"
+          />
+          <b><a href="index.html"> The Robot Shop </a></b>
+        </h3>
+        <nav>
+          <a href="index.html"
+            ><i class="fas fa-project-diagram"></i> Project</a
+          >
+          <a href="contact.html"><i class="far fa-id-card"></i> Contact</a>
+          <a href="about.html"><i class="fas fa-user-friends"></i> About Us</a>
+        </nav>
+      </div>
+    </header>
+
+    <section id="jumbotron">
+      <div class="jumbotron">
+        <h1 class="jumbotron-title">The Robot Shop is here!</h1>
+        <div class="header-flex">
+          <div>
+            <h2
+              class="jumbotron-text"
+              data-aos="zoom-out-down"
+              data-aos-once="true"
+              data-aos-duration="2000"
+              data-aos-delay="500"
+              data-aos-easing="ease-in"
+              data-aos-offset="300"
+            >
+              Explore your dream come true of having a
+              <span style="color: #2d5ed5">pet robot</span> !
+            </h2>
+            <div class="mini-text-flex" data-aos="fade-right">
+              <p class="mini-text" data-aos="fade-right">
+                You can explore of what a robot can do!!!
+              </p>
+              <button id="icon-up" onclick="changeText()">
+                <i class="far fa-hand-point-up"></i>
+              </button>
+              <button id="icon-down" class="icon-down">
+                <i class="far fa-hand-point-down"></i>
+              </button>
+            </div>
+          </div>
+
+          <div>
+            <img
+              class="jumbotron-img"
+              src="assets/img-header.jpeg"
+              alt=""
+              width="auto"
+              height="300"
+              data-aos="fade-right"
+              data-aos-once="true"
+              data-aos-duration="2000"
+              data-aos-delay="500"
+              data-aos-easing="ease-in"
+              data-aos-offset="600"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="slider" class="section-slider">
+      <div class="image-slider">
+        <div class="slide active">
+          <img
+            src="pictures for website/Robot 1.jpeg"
+            alt=""
+          />
+          <div class="slide-text">
+            <h2>The Superbot</h2>
+            <p>
+           A robot that can help you in everything!
+            </p>
+          </div>
+        </div>
+        <div class="slide">
+          <img
+            src="pictures for website/download (24).jpeg"
+            alt=""
+          />
+          <div class="slide-text">
+            <h2>Friendly Robot</h2>
+            <p>
+              A very friendly robot that is best for acompanying you 
+              when working ,keaping your pets, or babies busy and 
+              giving you entertainment!
+            </p>
+          </div>
+        </div>
+        <div class="slide">
+          <img
+            src="pictures for website/"
+            alt=""
+          />
+          <div class="slide-text">
+            <h2>The Help-bot</h2>
+            <p>
+              A very helpful robot that works 
+              best on everything  that we ask!
+            </p>
+          </div>
+        </div>
+        <div class="slide">
+          <img
+            src="pictures for website/images-removebg-preview (6).png"
+            alt=""
+          />
+          <div class="slide-text">
+            <h2>The Clean-Bot</h2>
+            <p>
+              This robot's spescialty is it is best
+              for asking to clean the house but also 
+              good at doing anything that we want!
+            </p>
+          </div>
+        </div>
+        <div class="slide">
+          <img
+            src="pictures for website/images-removebg-preview (7).png"
+            alt=""
+          />
+          <div class="slide-text">
+            <h2>Health Robot</h2>
+            <p>
+              This robot's spescialty is 
+              it can keep us healthy, 
+              prevent us from dying ,and 
+              do everything that we want!
+            </p>
+          </div>
+        </div>
+
+        <!-- Copy paste div class slide di atas (tanpa kata active) sampai ada 5 buah div -->
+
+        <div class="navigation">
+          <div class="slider-btn active"></div>
+          <div class="slider-btn"></div>
+          <div class="slider-btn"></div>
+          <div class="slider-btn"></div>
+          <div class="slider-btn"></div>
+        </div>
+      </div>
+    </section>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="Script.js"></script>
+  </body>
+</html>
